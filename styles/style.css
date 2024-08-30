@@ -67,6 +67,12 @@ input[type="number"] {
     font-size: 18px;
     cursor: pointer;
     margin-top: 10px;
+    transition: all 0.5;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #e1e198 ;
 }
 
 
@@ -79,13 +85,18 @@ input[type="number"] {
     margin-top: 20px;
 }
 
-.card.h3{
-    font-size: 18px; /* Sarlavha o‘lchami */
+.card h3{
+    font-size: 18px; 
     margin: 10px 0;
 }
 
-.card.span{
-    font-size: 16px; /* Matn o‘lchami */
-    color: #666; /* Matn rang */
+.card span{
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+.card mark{
+    font-size: 16px;
+    color: #666;
     margin: 5px 0;
 }
