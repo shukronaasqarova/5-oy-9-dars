@@ -27,7 +27,7 @@ function uiChanger(myData) {
   myData.forEach((element) => {
     const card = `<div class="card">
       <h3 class="h3">${element.username}</h3>
-      <span class="span>${element.age}</span>
+      <span class="span">${element.age}</span>
       <mark class="mark">${element.email}</mark>
     </div>
     `;

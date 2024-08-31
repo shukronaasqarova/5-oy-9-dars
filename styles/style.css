@@ -99,4 +99,5 @@ input[type="number"] {
     font-size: 16px;
     color: #666;
     margin: 5px 0;
+    background-color: transparent;
 }
